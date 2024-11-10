@@ -1,28 +1,11 @@
-# 生成 requirements.txt 文件
+JockerFetch 是一个基于Python获取电脑配置信息的终端工具。
 
-pip freeze > requirements.txt
+![1731257726384](image/README/1731257726384.png)
 
-# 显示库
+使用方式：
 
-pip freeze
+**python -m venv venv**
 
-# 注意
+pip install requirements.txt
 
-如果想要通过start.bat启动项目，就要在项目内部安装虚拟环境venv，使用全局环境是无法启动的：
-
-- 创建虚拟环境：
-
-  python -m venv venv
-- 激活虚拟环境（windows）
-
-  venv\Scripts\activate
-- 激活虚拟环境（macos）
-
-  source venv/bin/activate
-
-接着安装依赖：
-
-- pip install xxx xxx
-- pip freeze > requirements.txt
-- pip freeze (显示需要安装的依赖，就是需要写入到requirements.txt中的内容)
--
+运行main.py 或者 start.bat/start.sh
