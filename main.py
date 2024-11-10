@@ -1,7 +1,5 @@
 
-from config.EmojiConfig import EmojiConfig
 from config.ImageAndEmojiConfig import ImageAndEmojiConfig
-from config.ImageConfig import ImageConfig
 from util import SystemColorUtil
 from colorama import Fore
 from util.CpuInfoUtil import CpuInfoUtil
